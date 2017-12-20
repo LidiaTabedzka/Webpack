@@ -5,11 +5,14 @@ var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 var OptimizeJsPlugin = require('optimize-js-plugin')
 
 module.exports = {
-    entry: './src/index.js',
+    entry: [
+        'react-hot-loader/patch',
+        './src/index.js'
+        ],
         output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'app.bundle.js'
-    },
+        },
     module: {
         rules: [
             {
