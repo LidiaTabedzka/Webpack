@@ -1,0 +1,21 @@
+.TodoList ul {
+    font-size: 22px;
+    font-style: italic;
+}
+.TodoList ul li {
+    margin: 20px 0;
+    position: relative;
+    padding-right: 50px;
+}
+.TodoList button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 26px;
+}
+.TodoList button:hover {
+    cursor: pointer;
+    color: #b71021;
+    border: 2px solid #b71021;
+    background-color: white;
+}

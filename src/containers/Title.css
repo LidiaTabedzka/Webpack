@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.appTitle {
+    border: 1px dashed;
+    text-align: center;
+    padding: 20px;
+}
+.appTitle h1 {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+.appTitle p {
+    font-size: 18px;
+}
+.bold {
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 5px;
+}
