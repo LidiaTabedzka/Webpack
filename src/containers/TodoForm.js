@@ -35,7 +35,7 @@ class TodoForm extends React.Component {
                     onChange={event => this.onChange(event)}
                     onKeyUp={event => this.handleKeyUp(event)}
                     value={this.state.newItem}/>
-                    <button type="submit"><i class="fa fa-check" aria-hidden="true"></i></button>
+                    <button type="submit"><i className="fa fa-check" aria-hidden="true"></i></button>
                 </form>
                 {
                     this.state.error ? <p>{this.state.error}</p> : null
